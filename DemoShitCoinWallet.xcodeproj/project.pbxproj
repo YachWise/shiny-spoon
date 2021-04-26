@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC875A1C263666C200600648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC875A1B263666C200600648 /* AppDelegate.swift */; };
+		AC875A1E263666C200600648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC875A1D263666C200600648 /* SceneDelegate.swift */; };
+		AC875A20263666C200600648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC875A1F263666C200600648 /* ViewController.swift */; };
+		AC875A23263666C200600648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC875A21263666C200600648 /* Main.storyboard */; };
+		AC875A25263666C300600648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC875A24263666C300600648 /* Assets.xcassets */; };
+		AC875A28263666C300600648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC875A26263666C300600648 /* LaunchScreen.storyboard */; };
+		AC875A33263666C300600648 /* DemoShitCoinWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC875A32263666C300600648 /* DemoShitCoinWalletTests.swift */; };
+		AC875A3E263666C300600648 /* DemoShitCoinWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC875A3D263666C300600648 /* DemoShitCoinWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC875A2F263666C300600648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC875A10263666C200600648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC875A17263666C200600648;
+			remoteInfo = DemoShitCoinWallet;
+		};
+		AC875A3A263666C300600648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC875A10263666C200600648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC875A17263666C200600648;
+			remoteInfo = DemoShitCoinWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC875A18263666C200600648 /* DemoShitCoinWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoShitCoinWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC875A1B263666C200600648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC875A1D263666C200600648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC875A1F263666C200600648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC875A22263666C200600648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC875A24263666C300600648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC875A27263666C300600648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC875A29263666C300600648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC875A2E263666C300600648 /* DemoShitCoinWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoShitCoinWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC875A32263666C300600648 /* DemoShitCoinWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoShitCoinWalletTests.swift; sourceTree = "<group>"; };
+		AC875A34263666C300600648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC875A39263666C300600648 /* DemoShitCoinWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoShitCoinWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC875A3D263666C300600648 /* DemoShitCoinWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoShitCoinWalletUITests.swift; sourceTree = "<group>"; };
+		AC875A3F263666C300600648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC875A15263666C200600648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A2B263666C300600648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A36263666C300600648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC875A0F263666C200600648 = {
+			isa = PBXGroup;
+			children = (
+				AC875A1A263666C200600648 /* DemoShitCoinWallet */,
+				AC875A31263666C300600648 /* DemoShitCoinWalletTests */,
+				AC875A3C263666C300600648 /* DemoShitCoinWalletUITests */,
+				AC875A19263666C200600648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC875A19263666C200600648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC875A18263666C200600648 /* DemoShitCoinWallet.app */,
+				AC875A2E263666C300600648 /* DemoShitCoinWalletTests.xctest */,
+				AC875A39263666C300600648 /* DemoShitCoinWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC875A1A263666C200600648 /* DemoShitCoinWallet */ = {
+			isa = PBXGroup;
+			children = (
+				AC875A1B263666C200600648 /* AppDelegate.swift */,
+				AC875A1D263666C200600648 /* SceneDelegate.swift */,
+				AC875A1F263666C200600648 /* ViewController.swift */,
+				AC875A21263666C200600648 /* Main.storyboard */,
+				AC875A24263666C300600648 /* Assets.xcassets */,
+				AC875A26263666C300600648 /* LaunchScreen.storyboard */,
+				AC875A29263666C300600648 /* Info.plist */,
+			);
+			path = DemoShitCoinWallet;
+			sourceTree = "<group>";
+		};
+		AC875A31263666C300600648 /* DemoShitCoinWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC875A32263666C300600648 /* DemoShitCoinWalletTests.swift */,
+				AC875A34263666C300600648 /* Info.plist */,
+			);
+			path = DemoShitCoinWalletTests;
+			sourceTree = "<group>";
+		};
+		AC875A3C263666C300600648 /* DemoShitCoinWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC875A3D263666C300600648 /* DemoShitCoinWalletUITests.swift */,
+				AC875A3F263666C300600648 /* Info.plist */,
+			);
+			path = DemoShitCoinWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC875A17263666C200600648 /* DemoShitCoinWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC875A42263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWallet" */;
+			buildPhases = (
+				AC875A14263666C200600648 /* Sources */,
+				AC875A15263666C200600648 /* Frameworks */,
+				AC875A16263666C200600648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoShitCoinWallet;
+			productName = DemoShitCoinWallet;
+			productReference = AC875A18263666C200600648 /* DemoShitCoinWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC875A2D263666C300600648 /* DemoShitCoinWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC875A45263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWalletTests" */;
+			buildPhases = (
+				AC875A2A263666C300600648 /* Sources */,
+				AC875A2B263666C300600648 /* Frameworks */,
+				AC875A2C263666C300600648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC875A30263666C300600648 /* PBXTargetDependency */,
+			);
+			name = DemoShitCoinWalletTests;
+			productName = DemoShitCoinWalletTests;
+			productReference = AC875A2E263666C300600648 /* DemoShitCoinWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC875A38263666C300600648 /* DemoShitCoinWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC875A48263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWalletUITests" */;
+			buildPhases = (
+				AC875A35263666C300600648 /* Sources */,
+				AC875A36263666C300600648 /* Frameworks */,
+				AC875A37263666C300600648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC875A3B263666C300600648 /* PBXTargetDependency */,
+			);
+			name = DemoShitCoinWalletUITests;
+			productName = DemoShitCoinWalletUITests;
+			productReference = AC875A39263666C300600648 /* DemoShitCoinWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC875A10263666C200600648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AC875A17263666C200600648 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AC875A2D263666C300600648 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AC875A17263666C200600648;
+					};
+					AC875A38263666C300600648 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AC875A17263666C200600648;
+					};
+				};
+			};
+			buildConfigurationList = AC875A13263666C200600648 /* Build configuration list for PBXProject "DemoShitCoinWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC875A0F263666C200600648;
+			productRefGroup = AC875A19263666C200600648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC875A17263666C200600648 /* DemoShitCoinWallet */,
+				AC875A2D263666C300600648 /* DemoShitCoinWalletTests */,
+				AC875A38263666C300600648 /* DemoShitCoinWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC875A16263666C200600648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC875A28263666C300600648 /* LaunchScreen.storyboard in Resources */,
+				AC875A25263666C300600648 /* Assets.xcassets in Resources */,
+				AC875A23263666C200600648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A2C263666C300600648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A37263666C300600648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC875A14263666C200600648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC875A20263666C200600648 /* ViewController.swift in Sources */,
+				AC875A1C263666C200600648 /* AppDelegate.swift in Sources */,
+				AC875A1E263666C200600648 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A2A263666C300600648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC875A33263666C300600648 /* DemoShitCoinWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC875A35263666C300600648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC875A3E263666C300600648 /* DemoShitCoinWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC875A30263666C300600648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC875A17263666C200600648 /* DemoShitCoinWallet */;
+			targetProxy = AC875A2F263666C300600648 /* PBXContainerItemProxy */;
+		};
+		AC875A3B263666C300600648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC875A17263666C200600648 /* DemoShitCoinWallet */;
+			targetProxy = AC875A3A263666C300600648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC875A21263666C200600648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC875A22263666C200600648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC875A26263666C300600648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC875A27263666C300600648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC875A40263666C300600648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC875A41263666C300600648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC875A43263666C300600648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC875A44263666C300600648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC875A46263666C300600648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoShitCoinWallet.app/DemoShitCoinWallet";
+			};
+			name = Debug;
+		};
+		AC875A47263666C300600648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoShitCoinWallet.app/DemoShitCoinWallet";
+			};
+			name = Release;
+		};
+		AC875A49263666C300600648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoShitCoinWallet;
+			};
+			name = Debug;
+		};
+		AC875A4A263666C300600648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6MM258H88;
+				INFOPLIST_FILE = DemoShitCoinWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacobWise.DemoShitCoinWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoShitCoinWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC875A13263666C200600648 /* Build configuration list for PBXProject "DemoShitCoinWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC875A40263666C300600648 /* Debug */,
+				AC875A41263666C300600648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC875A42263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC875A43263666C300600648 /* Debug */,
+				AC875A44263666C300600648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC875A45263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC875A46263666C300600648 /* Debug */,
+				AC875A47263666C300600648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC875A48263666C300600648 /* Build configuration list for PBXNativeTarget "DemoShitCoinWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC875A49263666C300600648 /* Debug */,
+				AC875A4A263666C300600648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC875A10263666C200600648 /* Project object */;
+}
