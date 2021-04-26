@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func sendPressed(_ sender: Any) {
+        print("send money")
+    }
+    
+    @IBAction func receivePressed(_ sender: Any) {
+        print("receive money")
+    }
+    @IBAction func buyPressed(_ sender: Any) {
+        print("print money nerd")
+    }
 }
 
